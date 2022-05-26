@@ -92,6 +92,7 @@ namespace HealthCheckServerApi
                          .AddHealthChecks()
                          .AddUrlGroup(new Uri("https://google.com"), name: "Google")
                          .AddUrlGroup(new Uri("https://yandex.com"), name: "Yandex")
+                          .AddUrlGroup(new Uri("https://ya12adsadndex.com"), name: "Yandexasdas")
                          .AddCheck("Udemy", new HealthCheck("https://udemy.com"))
                          //.AddUrlGroup(
                          //sp =>
